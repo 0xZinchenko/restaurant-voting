@@ -12,7 +12,7 @@
     <artifactId>restaurant-voting</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restaurant-voting</name>
-    <description>restaurant-voting</description>
+    <description>Spring Boot HATEOAS application</description>
     <url/>
     <licenses>
         <license/>

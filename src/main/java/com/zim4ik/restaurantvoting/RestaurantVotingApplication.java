@@ -23,25 +23,6 @@ public class RestaurantVotingApplication implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        userRepository.save(
-                new User(
-                        "user@gmail.com",
-                        "User_First",
-                        "User_Last_Name",
-                        "pass",
-                        Set.of(Role.ROLE_USER)
-                )
-        );
-
-        userRepository.save(
-                new User(
-                        "admin@gmail.com",
-                        "Admin_First",
-                        "Admin_Last_Name",
-                        "pass",
-                        Set.of(Role.ROLE_ADMIN)
-                )
-        );
-        System.out.println(userRepository.findAll());
+        System.out.println(userRepository.findByLastNameContainingIgnoreCase("last"));
     }
 }

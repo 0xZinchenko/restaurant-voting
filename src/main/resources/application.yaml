@@ -19,4 +19,10 @@ spring:
     #    tcp: jdbc:h2:tcp://localhost:9092/mem:voting
     username: yz
     password:
-  h2.console.enabled: true
+  h2:
+    console:
+      enabled: true
+
+  data:
+    rest:
+      return-body-on-create: true

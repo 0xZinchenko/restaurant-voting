@@ -1,7 +1,5 @@
 package com.zim4ik.restaurantvoting;
 
-import com.zim4ik.restaurantvoting.model.Role;
-import com.zim4ik.restaurantvoting.model.User;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
